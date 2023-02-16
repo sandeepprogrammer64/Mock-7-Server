@@ -1,19 +1,103 @@
 {
-  "posts": [
+  "companies": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "logo": "https://www.jetspot.in/wp-content/uploads/2018/03/reliance-logo.jpg",
+      "name": "Reliance",
+      "type": "Bank",
+      "exchange": "NSE",
+      "shares": "240",
+      "cost": "650",
+      "priceAction": "5",
+      "id": 4
+    },
+    {
+      "logo": "https://logolook.net/wp-content/uploads/2021/11/HDFC-Bank-Logo.png",
+      "name": "\"HDFC Bank",
+      "type": "Bank",
+      "exchange": "NSE",
+      "shares": "50000",
+      "cost": "4210",
+      "priceAction": "12",
+      "id": 5
+    },
+    {
+      "logo": "https://www.jetspot.in/wp-content/uploads/2018/03/reliance-logo.jpg",
+      "name": "Reliance Industries",
+      "type": "Oil",
+      "exchange": "BSE",
+      "shares": "20000",
+      "cost": "2132",
+      "priceAction": "5",
+      "id": 6
+    },
+    {
+      "logo": "https://www.jetspot.in/wp-content/uploads/2018/03/reliance-logo.jpg",
+      "name": "Reliance Industries",
+      "type": "Oil",
+      "exchange": "BSE",
+      "shares": "20000",
+      "cost": "2132",
+      "priceAction": "5",
+      "id": 7
+    },
+    {
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Volkswagen_logo_2019.svg",
+      "name": "Volkswagen",
+      "type": "Automobile",
+      "exchange": "NSE",
+      "shares": "23450",
+      "cost": "3500",
+      "priceAction": "50",
+      "id": 8
+    },
+    {
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Pfizer_logo.svg/2560px-Pfizer_logo.svg.png",
+      "name": "Pfizer",
+      "type": "Pharma",
+      "exchange": "",
+      "shares": "5600",
+      "cost": "890",
+      "priceAction": "16",
+      "id": 9
+    },
+    {
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Tata_Consultancy_Services_Logo.svg/2560px-Tata_Consultancy_Services_Logo.svg.png",
+      "name": "TCS",
+      "type": "IT",
+      "exchange": "BSE",
+      "shares": "450000",
+      "cost": "4500",
+      "priceAction": "13",
+      "id": 10
     }
   ],
-  "comments": [
+  "users": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "username": "someone",
+      "email": "someone@gmail.com",
+      "password": "some123"
+    },
+    {
+      "username": "sandeep",
+      "email": "sandeep@gmail.com",
+      "password": "sandeep123",
+      "id": 2
+    },
+    {
+      "username": "anjali",
+      "email": "anjali@gmail.com",
+      "password": "anjali123",
+      "id": 3
+    },
+    {
+      "username": "Snigdha",
+      "email": "snigs@gmail.com",
+      "password": "snigs123",
+      "id": 4
     }
   ],
-  "profile": {
+  "comments": {
     "name": "typicode"
   }
 }
