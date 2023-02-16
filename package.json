@@ -1,0 +1,25 @@
+{
+  "name": "mock-7-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server --watch db.json",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeepprogrammer64/Mock-7-Server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandeepprogrammer64/Mock-7-Server/issues"
+  },
+  "homepage": "https://github.com/sandeepprogrammer64/Mock-7-Server#readme",
+  "description": "",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}
